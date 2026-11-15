@@ -8,16 +8,27 @@ Strona sama je pokaże w miejsce napisów w nawiasach. Nie trzeba zmieniać kodu
 | Plik | Gdzie się pojawi | Wskazówka |
 |---|---|---|
 | `hero.png` | koło na górze strony | PNG **bez tła**, kwadrat ok. 1200×1200 px |
-| `vintage-murals.jpg` | duża karta Vintage Murals | poziome, ok. 1600×1100 px |
-| `flyer.jpg` | karta: ulotka | ok. 1200×900 px |
-| `labels.jpg` | karta: etykiety | ok. 1200×900 px |
-| `patterns.jpg` | karta: wzory | ok. 1200×900 px |
-| `mm-energo.jpg` | karta: MM Energo | ok. 1200×900 px |
-| `lesna-osiedle.jpg` | karta: Leśna Osiedle | ok. 1200×900 px |
+| `etsy-stores.jpg` | duża karta: 5 sklepów Etsy | poziome, ok. 1600×1100 px |
+| `vintage-murals.jpg` | karta: naklejki 3D | ok. 1200×900 px |
+| `print.jpg` | karta: katalog i reklamy Vintage Murals | ok. 1200×900 px |
+| `labels.jpg` | karta: etykiety i opakowania Darymex | ok. 1200×900 px |
+| `patterns.jpg` | karta: twoje wzory | ok. 1200×900 px |
+| `logos.jpg` | karta: MM Energo i Leśna Osiedle (oba logo na jednym obrazku) | ok. 1200×900 px |
 | `about.jpg` | twoje zdjęcie w „About” | pionowe, ok. 900×1125 px |
 | `og.jpg` | podgląd linku (LinkedIn, WhatsApp) | 1200×630 px |
 
-## Case study (case-study.html)
+## Case study sklepów Etsy (etsy-stores.html)
+
+| Plik | Gdzie się pojawi |
+|---|---|
+| `etsy-hero.jpg` | duże zdjęcie na górze (ok. 2400×1200 px), np. 5 banerów obok siebie |
+| `store-1-logo.png` … `store-5-logo.png` | logo sklepów, PNG bez tła (1 = marWALLous, 2 = BoscoMurals, 3 = Panoramurals, 4 = Wonderberries, 5 = VintageMurals) |
+| `store-1.jpg` … `store-5.jpg` | najlepiej sprzedająca się oferta każdego sklepu (ok. 1200×800 px) |
+| `listing-main.jpg` | przykładowe główne zdjęcie oferty |
+| `listing-interior.jpg` | wizualizacja we wnętrzu |
+| `listing-infographic.jpg` | infografika (wymiary, montaż) |
+
+## Case study naklejek 3D (case-study.html)
 
 | Plik | Gdzie się pojawi |
 |---|---|
