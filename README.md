@@ -4,7 +4,8 @@ Strona pod adresem **portfolio.nataliaborzyk.com** (GitHub Pages).
 
 ## Pliki
 - `index.html` — strona główna
-- `case-study.html` — case study Vintage Murals
+- `etsy-stores.html` — case study 5 sklepów Etsy
+- `case-study.html` — case study naklejek 3D Vintage Murals
 - `style.css` — wygląd obu stron
 - `lang.js` — przełącznik EN/PL (pamięta wybór)
 - `images/` — zdjęcia; listę nazw znajdziesz w `images/README.md`
