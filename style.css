@@ -225,3 +225,18 @@ a.card:hover{transform:translateY(-6px);color:#fff}
   .mosaic .slot{aspect-ratio:1/1}
   .mosaic .m-big{grid-column:1 / 3;grid-row:auto}
 }
+
+/* etsy card: images full width on top, text below, every tile exactly square */
+.card--etsy{flex-direction:column}
+.card--etsy .mosaic{flex:none;width:100%;aspect-ratio:2 / 1;min-height:0;grid-template-columns:2fr 1fr 1fr;grid-template-rows:1fr 1fr}
+.card--etsy .card-body{flex:none;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);column-gap:48px;row-gap:12px;align-items:start}
+.card--etsy .card-body .tag,.card--etsy .card-body h3{grid-column:1}
+.card--etsy .card-body .desc,.card--etsy .card-body .myrole,.card--etsy .card-body .more{grid-column:2}
+.card--etsy .card-body h3{grid-row:2 / 5}
+.card--etsy .card-body .desc{grid-row:1 / 3}
+@media (max-width:860px){
+  .card--etsy .card-body{display:flex;flex-direction:column}
+}
+@media (max-width:640px){
+  .card--etsy .mosaic{aspect-ratio:auto;grid-template-columns:1fr 1fr;grid-template-rows:auto}
+}
