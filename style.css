@@ -27,6 +27,7 @@ h1,h2,h3,dt,figcaption,.lc,.nav a,.logo{text-transform:lowercase}
 .header{position:relative;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding-top:28px;padding-bottom:28px;z-index:2}
 .logo{font-family:var(--display);font-weight:800;font-size:22px;color:#fff;text-decoration:none;letter-spacing:-.02em}
 .logo span{color:var(--lime)}
+.logo img{display:block;height:76px;width:auto}
 .nav{display:flex;flex-wrap:wrap;gap:24px;align-items:center;font-size:15px;font-weight:500}
 .nav a{color:#fff;text-decoration:none}
 .nav a:hover{color:var(--lime)}
@@ -167,6 +168,7 @@ a.card:hover{transform:translateY(-6px);color:#fff}
   .wrap{padding-left:20px;padding-right:20px}
   .vertical{display:none}
   .nav{gap:16px}
+  .logo img{height:60px}
   .cs-main{height:380px}
   .gallery .big{height:340px}
   /* keep the violet shape in the top-right corner so text stays readable */
