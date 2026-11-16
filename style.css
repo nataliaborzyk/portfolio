@@ -175,9 +175,18 @@ a.card:hover{transform:translateY(-6px);color:#fff}
   .hero-bg{inset:auto;top:0;right:-140px;left:auto;width:560px;height:350px}
   .blob-b,.grain-all{display:none}
 }
+
+/* hero illustration: gentle float */
+@keyframes nb-float{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  50%{transform:translateY(-14px) rotate(1.5deg)}
+}
+.slot--circle{animation:nb-float 7s ease-in-out infinite;will-change:transform}
+
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .card{transition:none}
+  .slot--circle{animation:none}
 }
 
 /* etsy stores case study */
