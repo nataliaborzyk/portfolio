@@ -11,8 +11,10 @@ Strona sama je pokaże w miejsce napisów w nawiasach. Nie trzeba zmieniać kodu
 | `etsy-stores.jpg` | duża karta: 5 sklepów Etsy | poziome, ok. 1600×1100 px |
 | `vintage-murals.jpg` | karta: naklejki 3D | ok. 1200×900 px |
 | `print.jpg` | karta: katalog i reklamy Vintage Murals | ok. 1200×900 px |
+| `honey-labels.jpg` | karta: etykiety na miody | ok. 1200×900 px |
 | `labels.jpg` | karta: etykiety i opakowania Darymex | ok. 1200×900 px |
 | `patterns.jpg` | karta: twoje wzory | ok. 1200×900 px |
+| `digital.jpg` | karta: newsletter i social media (koncepty) | ok. 1200×900 px |
 | `logos.jpg` | karta: MM Energo i Leśna Osiedle (oba logo na jednym obrazku) | ok. 1200×900 px |
 | `about.jpg` | twoje zdjęcie w „About” | pionowe, ok. 900×1125 px |
 | `og.jpg` | podgląd linku (LinkedIn, WhatsApp) | 1200×630 px |
@@ -42,3 +44,17 @@ Strona sama je pokaże w miejsce napisów w nawiasach. Nie trzeba zmieniać kodu
 
 Uwaga: `.jpg` i `.JPG` to dla GitHuba różne nazwy. Pliki zapisuj jako `.jpg` małymi literami.
 Najlepiej kompresuj zdjęcia (np. tinypng.com), żeby strona szybko się ładowała — do ok. 300–500 KB na zdjęcie.
+
+## Krótkie strony projektów
+
+Każdy projekt ma ten sam zestaw zdjęć. Zamiast `NAZWA` wpisz: `catalogue`, `honey-labels`, `darymex`, `patterns`, `digital` albo `logos`.
+
+| Plik | Gdzie się pojawi | Wskazówka |
+|---|---|---|
+| `NAZWA-main.jpg` | duże zdjęcie na górze | poziome, ok. 2400×1200 px |
+| `NAZWA-detail-1.jpg`, `-detail-2.jpg`, `-detail-3.jpg` | 3 zbliżenia w sekcji „Details” | ok. 1000×1000 px |
+| `NAZWA-production.jpg` | fioletowy pas (plik do druku, wykrojnik, warianty) | ok. 1400×1000 px |
+| `NAZWA-use-1.jpg`, `-use-2.jpg` | sekcja „In use” | ok. 1400×1000 px |
+
+Przykład: `honey-labels-main.jpg`, `honey-labels-detail-1.jpg` … `honey-labels-use-2.jpg`.
+Jeśli któregoś zdjęcia nie masz, po prostu go nie wgrywaj: zostanie napis w ramce, a resztę strony to nie popsuje.
