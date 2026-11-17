@@ -26,9 +26,9 @@ Strona sama je pokaże w miejsce napisów w nawiasach. Nie trzeba zmieniać kodu
 |---|---|
 | `etsy-hero.jpg` | duże zdjęcie na górze (ok. 2400×1200 px), np. 5 banerów obok siebie |
 | `etsy-source.jpg` | „Source material”: oryginalne dzieło obok gotowej fototapety (przed / po), ok. 1200×900 px |
-| `store-1-logo.jpg` … `store-5-logo.jpg` | ikonki sklepów z Etsy, kwadrat do 150×150 px (1 = marWALLous, 2 = BoscoMurals, 3 = Panoramurals, 4 = Wonderberries, 5 = VintageMurals) |
+| `store-1-logo.jpg` … `store-5-logo.jpg` | ikonki sklepów z Etsy, kwadrat 200×200 px (1 = marWALLous, 2 = BoscoMurals, 3 = Panoramurals, 4 = Wonderberries, 5 = VintageMurals) |
 | `etsy-custom-1.jpg`, `-2.jpg`, `-3.jpg` | „Custom orders”: zdjęcie od klienta z wymiarami, projekt dopasowany do ściany, podgląd we wnętrzu (ok. 1000×1000 px) |
-| `store-1.jpg` … `store-5.jpg` | najlepiej sprzedająca się oferta każdego sklepu (ok. 1200×800 px) |
+| `store-1.jpg` … `store-5.jpg` | bestseller każdego sklepu (główne zdjęcie oferty), 1000×800 px |
 
 ## Case study naklejek 3D (case-study.html)
 
@@ -58,3 +58,9 @@ Każdy projekt ma ten sam zestaw zdjęć. Zamiast `NAZWA` wpisz: `catalogue`, `h
 
 Przykład: `honey-labels-main.jpg`, `honey-labels-detail-1.jpg` … `honey-labels-use-2.jpg`.
 Jeśli któregoś zdjęcia nie masz, po prostu go nie wgrywaj: zostanie napis w ramce, a resztę strony to nie popsuje.
+
+## Vintage Murals – katalog i materiały drukowane (catalogue.html)
+
+Ta strona jest zrobiona ręcznie i ma własne nazwy zdjęć (1400×1000 px):
+`catalogue-main.jpg`, `catalogue-book-1…3.jpg`, `catalogue-flyer-1…3.jpg`, `catalogue-guide-1…2.jpg`, `catalogue-cards-1…5.jpg`, `catalogue-production.jpg`.
+Stare nazwy `catalogue-detail-*` i `catalogue-use-*` nie są już używane.
