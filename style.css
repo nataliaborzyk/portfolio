@@ -260,3 +260,6 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 @media (max-width:640px){
   .store .prod{flex:1 1 100%;height:auto;aspect-ratio:5 / 4;margin-left:0}
 }
+
+/* best-seller label on the photo */
+.bs-badge{position:absolute;left:12px;top:12px;z-index:2;background:var(--lime);color:var(--ink);font-size:13px;font-weight:600;line-height:1.2;padding:7px 12px;border-radius:999px;text-transform:lowercase;box-shadow:0 2px 10px rgba(0,0,0,.25)}
