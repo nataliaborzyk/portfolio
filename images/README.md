@@ -64,3 +64,9 @@ Jeśli któregoś zdjęcia nie masz, po prostu go nie wgrywaj: zostanie napis w 
 Ta strona jest zrobiona ręcznie i ma własne nazwy zdjęć (1400×1000 px):
 `catalogue-main.jpg`, `catalogue-book-1…3.jpg`, `catalogue-flyer-1…3.jpg`, `catalogue-guide-1…2.jpg`, `catalogue-cards-1…5.jpg`, `catalogue-production.jpg`.
 Stare nazwy `catalogue-detail-*` i `catalogue-use-*` nie są już używane.
+
+## Darymex – etykiety i newslettery (darymex.html)
+
+Strona zrobiona ręcznie. Zdjęcia maili są gotowe: `darymex-nl-main.jpg`, `darymex-nl-1…3.jpg`.
+Dwa zdjęcia etykiet z Behance wgraj jako `darymex-label-1.jpg` i `darymex-label-2.jpg` (najlepiej ok. 1400×1000 px).
+Stare nazwy `darymex-main`, `darymex-detail-*`, `darymex-use-*`, `darymex-production` nie są już używane.
