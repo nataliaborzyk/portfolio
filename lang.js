@@ -28,7 +28,7 @@
   /* Image slots: show the photo if the file exists, otherwise keep the label */
   document.querySelectorAll('.slot img').forEach(function (img) {
     function ok() { img.parentNode.classList.add('has-img'); }
-    function fail() { img.remove(); }
+    function fail() { img.parentNode.classList.add('no-img'); img.remove(); }
     if (img.complete) { img.naturalWidth ? ok() : fail(); }
     else { img.addEventListener('load', ok); img.addEventListener('error', fail); }
   });

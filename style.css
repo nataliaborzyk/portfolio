@@ -69,7 +69,7 @@ h1,h2,h3,dt,figcaption,.lc,.nav a,.logo{text-transform:lowercase}
 .slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .slot-label{margin:0;font-size:14px;color:var(--ink);background:rgba(255,255,255,.75);text-align:center;border-radius:14px;padding:14px 18px}
 .slot.has-img .slot-label{display:none}
-.slot--circle{width:100%;max-width:400px;aspect-ratio:1/1;border-radius:50%;background:#2A1F38;border:2px dashed var(--lime);overflow:visible}
+.slot--circle{width:100%;max-width:400px;aspect-ratio:1/1;border-radius:50%;background:none;border:0;overflow:visible}
 .slot--circle .slot-label{background:none;color:#fff}
 .slot--circle img{inset:-8%;width:116%;height:116%;object-fit:contain}
 .slot--circle.has-img{border:0;background:none}
@@ -263,3 +263,10 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 
 /* best-seller label on the photo */
 .bs-badge{position:absolute;left:12px;top:12px;z-index:2;background:var(--lime);color:var(--ink);font-size:13px;font-weight:600;line-height:1.2;padding:7px 12px;border-radius:999px;text-transform:lowercase;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+
+/* no placeholder flash: labels show only if the image file is missing; photos fade in once loaded */
+.slot .slot-label{visibility:hidden}
+.slot.no-img .slot-label{visibility:visible}
+.slot img{opacity:0;transition:opacity .4s ease}
+.slot.has-img img{opacity:1}
+@media (prefers-reduced-motion:reduce){.slot img{transition:none}}
