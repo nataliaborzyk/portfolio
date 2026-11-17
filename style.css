@@ -288,3 +288,26 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 .r75 .slot{height:auto;aspect-ratio:7 / 5}
 .stats--3 .stat{flex:1 1 220px}
 @media (max-width:640px){.cs-main--r75{height:auto}}
+
+/* concept page: scrollable phones, post grid, palettes */
+.phones{display:flex;flex-wrap:wrap;gap:56px;justify-content:center;margin-top:8px}
+.phone-wrap{display:flex;flex-direction:column;align-items:center;gap:20px;width:320px;max-width:100%}
+.phone{position:relative;width:300px;height:620px;border-radius:46px;background:#0B0810;padding:12px;border:2px solid var(--line);box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.phone::before{content:"";position:absolute;top:24px;left:50%;transform:translateX(-50%);width:86px;height:24px;border-radius:999px;background:#0B0810;z-index:2}
+.phone .screen{height:100%;border-radius:34px;overflow-y:auto;background:#fff;scrollbar-width:none;overscroll-behavior:contain}
+.phone .screen::-webkit-scrollbar{display:none}
+.phone .screen img{display:block;width:100%;height:auto}
+.scroll-hint{margin:0;font-size:13px;font-weight:600;letter-spacing:.08em;color:var(--lime);text-transform:lowercase}
+.phone-wrap .cap{margin:0;color:var(--muted);text-align:center;font-size:16px;line-height:1.55}
+.phone-wrap .cap strong{color:#fff}
+.posts{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.posts img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:22px;transition:transform .3s ease}
+.posts img:hover{transform:translateY(-6px) rotate(-1.5deg)}
+@media (max-width:800px){.posts{grid-template-columns:repeat(2,1fr)}}
+@media (prefers-reduced-motion:reduce){.posts img{transition:none}.posts img:hover{transform:none}}
+.palettes{display:flex;flex-wrap:wrap;gap:24px}
+.palette{flex:1 1 260px;padding:28px;border-radius:24px;background:var(--ink)}
+.palette h3{margin:0 0 18px;font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:-.02em;color:#fff}
+.palette ul{list-style:none;margin:0;padding:0;display:flex;gap:16px}
+.palette li{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.palette li i{display:block;width:58px;height:58px;border-radius:50%;border:2px solid rgba(255,255,255,.25)}
