@@ -25,3 +25,11 @@ Strona pod adresem **portfolio.nataliaborzyk.com** (GitHub Pages).
 6. Gdy GitHub pokaże zielony komunikat → zaznacz **Enforce HTTPS**.
 
 Nie zmieniaj istniejących rekordów A ani `mail` w Arubie.
+
+## Zasady tekstów po polsku
+Polskie teksty mają brzmieć naturalnie, a nie jak tłumaczenie z angielskiego:
+- pełne zdania zamiast wyliczanek po dwukropku („zajmowałam się analizą rynku, nazwami…”, nie „analiza rynku, nazwy…”),
+- myślnik (–) zamiast średnika i dwukropka tam, gdzie po polsku brzmi to lepiej,
+- unikać kalk z angielskiego (np. „Przy każdym: …”, „zdobyły wierne grono” → „szybko zdobyły wiernych fanów”),
+- czasowniki w 1. osobie, rodzaj żeński („stworzyłam”, „prowadziłam”).
+Wzorcowe zdanie: „Dla drukarni stworzyłam od zera i prowadziłam pięć sklepów z dekoracjami ściennymi – zajmowałam się analizą rynku, nazwami, identyfikacją wizualną i projektem każdej oferty.”
