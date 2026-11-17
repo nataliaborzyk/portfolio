@@ -176,6 +176,7 @@ a.card:hover{transform:translateY(-6px);color:#fff}
   .logo img{height:60px}
   .cs-main{height:380px}
   .gallery .big{height:340px}
+  .store .prod{flex:1 1 100%;height:auto;aspect-ratio:5 / 4;margin-left:0}
   /* keep the violet shape in the top-right corner so text stays readable */
   .hero-bg{inset:auto;top:0;right:-140px;left:auto;width:560px;height:350px}
   .blob-b,.grain-all{display:none}
@@ -197,15 +198,15 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 /* etsy stores case study */
 .stores{display:flex;flex-direction:column;gap:20px}
 .store{color:#fff;display:flex;flex-wrap:wrap;gap:24px;align-items:stretch;background:var(--card);border:1px solid var(--line);border-radius:28px;padding:20px}
-.store .logo-slot{flex:0 0 96px;height:96px;border-radius:18px;background:#FFFFFF;padding:8px;align-self:center}
-.store .logo-slot img{object-fit:cover}
+.store .logo-slot{flex:0 0 96px;height:96px;border-radius:18px;background:var(--line);padding:8px;align-self:center}
+.store .logo-slot img{object-fit:cover;padding:0}
 .store .logo-slot .slot-label{background:none;font-size:13px;padding:0}
 .store-info{flex:1 1 300px;min-width:0;display:flex;flex-direction:column;gap:8px;justify-content:center}
 .store-info h3{margin:0;font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.02em}
 .store-info p{margin:0;color:var(--muted);font-size:16px;line-height:1.55}
 .store-info a{font-weight:600;text-decoration:none}
 .store-info .bs{font-size:14px;color:var(--lime)}
-.store .prod{flex:1 1 260px;min-height:180px;border-radius:20px}
+.store .prod{flex:0 0 300px;height:240px;border-radius:20px;margin-left:auto}
 .stats--4 .stat{flex:1 1 200px}
 .markets{margin:24px 0 0;font-size:16px}
 
@@ -255,3 +256,7 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 /* line diagrams (custom orders) */
 .diagram{height:360px;border-radius:24px;background:var(--card);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:16px}
 .diagram svg{width:100%;height:100%}
+
+@media (max-width:640px){
+  .store .prod{flex:1 1 100%;height:auto;aspect-ratio:5 / 4;margin-left:0}
+}
