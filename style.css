@@ -197,8 +197,8 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 /* etsy stores case study */
 .stores{display:flex;flex-direction:column;gap:20px}
 .store{color:#fff;display:flex;flex-wrap:wrap;gap:24px;align-items:stretch;background:var(--card);border:1px solid var(--line);border-radius:28px;padding:20px}
-.store .logo-slot{flex:0 0 160px;height:160px;border-radius:20px;background:#FFFFFF;padding:16px}
-.store .logo-slot img{object-fit:contain;padding:16px}
+.store .logo-slot{flex:0 0 96px;height:96px;border-radius:18px;background:#FFFFFF;padding:8px;align-self:center}
+.store .logo-slot img{object-fit:cover}
 .store .logo-slot .slot-label{background:none;font-size:13px;padding:0}
 .store-info{flex:1 1 300px;min-width:0;display:flex;flex-direction:column;gap:8px;justify-content:center}
 .store-info h3{margin:0;font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.02em}
