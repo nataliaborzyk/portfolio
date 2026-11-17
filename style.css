@@ -199,6 +199,7 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 .store-info h3{margin:0;font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.02em}
 .store-info p{margin:0;color:var(--muted);font-size:16px;line-height:1.55}
 .store-info a{font-weight:600;text-decoration:none}
+.store-info .bs{font-size:14px;color:var(--lime)}
 .store .prod{flex:1 1 260px;min-height:180px;border-radius:20px}
 .stats--4 .stat{flex:1 1 200px}
 .markets{margin:24px 0 0;font-size:16px}
@@ -211,7 +212,8 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 .row2 .slot{flex:1 1 420px;height:460px;border-radius:28px}
 .prod-row{display:flex;flex-wrap:wrap;gap:48px;align-items:center}
 .prod-row > div{flex:1 1 380px;min-width:0}
-.prod-row .slot{height:420px;border-radius:24px;background:var(--ink)}
+.prod-row .slot{height:420px;border-radius:24px}
+.band .prod-row .slot{background:var(--ink)}
 .band .prod-row .slot-label{background:none;color:#fff;border:1.5px dashed var(--lime)}
 @media (max-width:640px){.row2 .slot{height:320px}.prod-row .slot{height:300px}}
 
@@ -240,3 +242,7 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 @media (max-width:640px){
   .card--etsy .mosaic{aspect-ratio:auto;grid-template-columns:1fr 1fr;grid-template-rows:auto}
 }
+
+/* steps with full-sentence captions */
+.steps--text figcaption{font-family:var(--body);font-weight:500;font-size:17px;line-height:1.55;text-transform:none;color:#fff}
+.steps--text figcaption b{font-family:var(--display);font-weight:800;color:var(--lime);margin-right:6px}
