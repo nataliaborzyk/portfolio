@@ -8,7 +8,8 @@ Strona sama je pokaże w miejsce napisów w nawiasach. Nie trzeba zmieniać kodu
 | Plik | Gdzie się pojawi | Wskazówka |
 |---|---|---|
 | `hero.png` | koło na górze strony | PNG **bez tła**, kwadrat ok. 1200×1200 px |
-| `etsy-stores.jpg` | duża karta: 5 sklepów Etsy | poziome, ok. 1600×1100 px |
+| `etsy-card-1.jpg` | kafelek sklepów Etsy: duże zdjęcie | 1200×1200 px (kwadrat) |
+| `etsy-card-2.jpg` … `etsy-card-5.jpg` | kafelek sklepów Etsy: 4 małe zdjęcia | 592×592 px (kwadrat) |
 | `vintage-murals.jpg` | karta: naklejki 3D | ok. 1200×900 px |
 | `print.jpg` | karta: katalog i reklamy Vintage Murals | ok. 1200×900 px |
 | `honey-labels.jpg` | karta: etykiety na miody | ok. 1200×900 px |
@@ -24,11 +25,10 @@ Strona sama je pokaże w miejsce napisów w nawiasach. Nie trzeba zmieniać kodu
 | Plik | Gdzie się pojawi |
 |---|---|
 | `etsy-hero.jpg` | duże zdjęcie na górze (ok. 2400×1200 px), np. 5 banerów obok siebie |
+| `etsy-source.jpg` | „Source material”: oryginalne dzieło obok gotowej fototapety (przed / po), ok. 1200×900 px |
 | `store-1-logo.png` … `store-5-logo.png` | logo sklepów, PNG bez tła (1 = marWALLous, 2 = BoscoMurals, 3 = Panoramurals, 4 = Wonderberries, 5 = VintageMurals) |
+| `etsy-custom-1.jpg`, `-2.jpg`, `-3.jpg` | „Custom orders”: zdjęcie od klienta z wymiarami, projekt dopasowany do ściany, podgląd we wnętrzu (ok. 1000×1000 px) |
 | `store-1.jpg` … `store-5.jpg` | najlepiej sprzedająca się oferta każdego sklepu (ok. 1200×800 px) |
-| `listing-main.jpg` | przykładowe główne zdjęcie oferty |
-| `listing-interior.jpg` | wizualizacja we wnętrzu |
-| `listing-infographic.jpg` | infografika (wymiary, montaż) |
 
 ## Case study naklejek 3D (case-study.html)
 
