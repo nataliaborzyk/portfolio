@@ -70,3 +70,8 @@ Stare nazwy `catalogue-detail-*` i `catalogue-use-*` nie są już używane.
 Strona zrobiona ręcznie. Zdjęcia maili są gotowe: `darymex-nl-main.jpg`, `darymex-nl-1…3.jpg`.
 Dwa zdjęcia etykiet z Behance wgraj jako `darymex-label-1.jpg` i `darymex-label-2.jpg` (najlepiej ok. 1400×1000 px).
 Stare nazwy `darymex-main`, `darymex-detail-*`, `darymex-use-*`, `darymex-production` nie są już używane.
+
+## Koncepty: newsletter i social media (digital.html)
+
+Strona zrobiona ręcznie: `digital-main.jpg`, `digital-florisse.jpg`, `digital-bloomboom.jpg` (pełne maile, przewijane w telefonach), `digital-lune-1…4.jpg` (posty 900×900).
+Stare nazwy `digital-detail-*`, `digital-use-*`, `digital-production` nie są już używane.
