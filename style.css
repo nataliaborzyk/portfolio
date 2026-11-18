@@ -311,3 +311,20 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 .palette ul{list-style:none;margin:0;padding:0;display:flex;gap:16px}
 .palette li{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
 .palette li i{display:block;width:58px;height:58px;border-radius:50%;border:2px solid rgba(255,255,255,.25)}
+
+/* ad formats board */
+.ads-group{margin-bottom:48px}
+.ads-group h3{margin:0 0 20px;font-size:15px;font-weight:600;letter-spacing:.06em;color:var(--lime)}
+.ads-row{display:flex;flex-wrap:wrap;align-items:flex-end;gap:28px}
+.ad{display:flex;flex-direction:column;gap:10px;max-width:100%}
+.ad .slot{border-radius:14px;padding:8px;width:100%}
+.ad .slot-label{font-size:12px;padding:8px 10px}
+.ad .slot img{object-fit:contain;background:#fff}
+.ad p.size{margin:0;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ad--1x1{width:300px}.ad--1x1 .slot{aspect-ratio:1/1}
+.ad--4x5{width:288px}.ad--4x5 .slot{aspect-ratio:4/5}
+.ad--9x16{width:203px}.ad--9x16 .slot{aspect-ratio:9/16}
+.ad--728{width:546px}.ad--728 .slot{aspect-ratio:728/90;padding:4px}
+.ad--300{width:225px}.ad--300 .slot{aspect-ratio:300/250}
+.ad--160{width:120px}.ad--160 .slot{aspect-ratio:160/600;padding:4px}
+@media (max-width:640px){.ad--1x1,.ad--4x5{width:calc(50% - 14px)}.ad--9x16{width:calc(50% - 14px)}.ad--728{width:100%}.ad--300{width:calc(65% - 14px)}.ad--160{width:calc(35% - 14px)}}
