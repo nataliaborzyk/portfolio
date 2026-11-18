@@ -13,7 +13,7 @@ Strona sama je pokaże w miejsce napisów w nawiasach. Nie trzeba zmieniać kodu
 | `vintage-murals.jpg` | karta: naklejki 3D | ok. 1200×900 px |
 | `print.jpg` | karta: katalog i reklamy Vintage Murals | ok. 1200×900 px |
 | `honey-labels.jpg` | karta: etykiety na miody | ok. 1200×900 px |
-| `labels.jpg` | karta: etykiety i opakowania Darymex | ok. 1200×900 px |
+| `labels.jpg` | karta: etykiety i newslettery Darymex | ok. 1200×900 px |
 | `patterns.jpg` | karta: twoje wzory | ok. 1200×900 px |
 | `digital.jpg` | karta: newsletter i social media (koncepty) | ok. 1200×900 px |
 | `logos.jpg` | karta: MM Energo i Leśna Osiedle (oba logo na jednym obrazku) | ok. 1200×900 px |
