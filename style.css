@@ -328,3 +328,4 @@ a.card:hover{transform:translateY(-6px);color:#fff}
 .ad--300{width:225px}.ad--300 .slot{aspect-ratio:300/250}
 .ad--160{width:120px}.ad--160 .slot{aspect-ratio:160/600;padding:4px}
 @media (max-width:640px){.ad--1x1,.ad--4x5{width:calc(50% - 14px)}.ad--9x16{width:calc(50% - 14px)}.ad--728{width:100%}.ad--300{width:calc(65% - 14px)}.ad--160{width:calc(35% - 14px)}}
+.ads-section:has(.no-img){display:none}
