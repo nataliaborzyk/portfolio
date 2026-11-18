@@ -73,7 +73,7 @@ Stare nazwy `darymex-main`, `darymex-detail-*`, `darymex-use-*`, `darymex-produc
 
 ## Koncepty: newsletter i social media (digital.html)
 
-Strona zrobiona ręcznie: `digital-main.jpg`, `digital-florisse.jpg`, `digital-bloomboom.jpg` (pełne maile, przewijane w telefonach), `digital-lune-1…4.jpg` (posty 900×900).
+Strona zrobiona ręcznie: `digital-main.jpg`, `digital-lune-mail-1.jpg`, `digital-lune-mail-2.jpg` (pełne maile LUNE, przewijane w telefonach, szer. 750 px), `digital-lune-1…4.jpg` (posty 900×900).
 Stare nazwy `digital-detail-*`, `digital-use-*`, `digital-production` nie są już używane.
 
 ### Reklamy LUNE (sekcja „LUNE as an ad campaign” w digital.html)
@@ -86,3 +86,5 @@ Stare nazwy `digital-detail-*`, `digital-use-*`, `digital-production` nie są ju
 | `digital-ad-728x90.jpg` | Google 728×90 | 1456×180 (2×) |
 | `digital-ad-300x250.jpg` | Google 300×250 | 600×500 (2×) |
 | `digital-ad-160x600.jpg` | Google 160×600 | 320×1200 (2×) |
+
+Sekcja reklam jest ukryta, dopóki nie wgrasz wszystkich pięciu banerów – pojawi się sama.
