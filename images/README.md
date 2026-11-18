@@ -75,3 +75,14 @@ Stare nazwy `darymex-main`, `darymex-detail-*`, `darymex-use-*`, `darymex-produc
 
 Strona zrobiona ręcznie: `digital-main.jpg`, `digital-florisse.jpg`, `digital-bloomboom.jpg` (pełne maile, przewijane w telefonach), `digital-lune-1…4.jpg` (posty 900×900).
 Stare nazwy `digital-detail-*`, `digital-use-*`, `digital-production` nie są już używane.
+
+### Reklamy LUNE (sekcja „LUNE as an ad campaign” w digital.html)
+
+| Plik | Format | Eksport |
+|---|---|---|
+| `digital-lune-2.jpg` | Meta 1:1 (już jest – post „Meet snail mucin”) | 900×900 |
+| `digital-ad-4x5.jpg` | Meta 4:5, post | 1080×1350 |
+| `digital-ad-9x16.jpg` | Meta 9:16, relacja | 1080×1920 |
+| `digital-ad-728x90.jpg` | Google 728×90 | 1456×180 (2×) |
+| `digital-ad-300x250.jpg` | Google 300×250 | 600×500 (2×) |
+| `digital-ad-160x600.jpg` | Google 160×600 | 320×1200 (2×) |
