@@ -81,7 +81,15 @@
       <h2 class="h2 sec-h" data-t="prodT">Repeats &amp; colourways</h2>
       <p class="body-lg" data-t="prod">I usually work with a full drop repeat, where the tile repeats square next to square. Every tile is prepared in print-ready quality, so the pattern works on wallpaper and fabric as well as on smaller products. A pattern comes in one to four colourways, depending on where it is meant to be used.</p>
     </div>
-    <div class="slot"><p class="slot-label" data-t="prodI">[One pattern in 3–4 colourways]</p><img src="images/patterns-production.jpg" alt="My pattern collection production file"></div>
+    <div class="pt-studio">
+      <div class="pt-pat" id="pt-pat" style="--tile:url(images/patterns-dingo-sky.jpg);--size:240px"><div class="pt-tile" aria-hidden="true"></div></div>
+      <div class="pt-ctrl">
+        <p class="pt-name keep-case">Playful Dingo</p>
+        <div class="pt-sws" role="group" aria-label="Colourway"><button type="button" class="pt-sw is-on" data-cw="sky" aria-pressed="true"><img src="images/patterns-dingo-sky-sw.jpg" alt=""><span data-t="cwsky">sky</span></button><button type="button" class="pt-sw" data-cw="lilac" aria-pressed="false"><img src="images/patterns-dingo-lilac-sw.jpg" alt=""><span data-t="cwlilac">lilac</span></button><button type="button" class="pt-sw" data-cw="mint" aria-pressed="false"><img src="images/patterns-dingo-mint-sw.jpg" alt=""><span data-t="cwmint">mint</span></button><button type="button" class="pt-sw" data-cw="grey" aria-pressed="false"><img src="images/patterns-dingo-grey-sw.jpg" alt=""><span data-t="cwgrey">graphite</span></button></div>
+        <div class="pt-scale"><span data-t="sc1">cushion</span><input type="range" id="pt-scale" min="80" max="520" value="240" aria-label="Pattern scale"><span data-t="sc2">wallpaper</span></div>
+        <label class="pf-switch pf-switch--ink"><input type="checkbox" id="pt-tilet"><span class="pf-switch-ui" aria-hidden="true"></span><span data-t="ptS">show the repeat tile</span></label>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -104,6 +112,13 @@
 
 <script>
 window.PL = {
+ "cwsky": "niebo",
+ "cwlilac": "liliowy",
+ "cwmint": "mięta",
+ "cwgrey": "grafit",
+ "sc1": "poduszka",
+ "sc2": "tapeta",
+ "ptS": "pokaż kafel raportu",
  "back": "← wszystkie projekty",
  "briefT": "Brief",
  "decT": "Kluczowa decyzja",
@@ -136,5 +151,6 @@ window.PL = {
 };
 </script>
 <script src="lang.js"></script>
+<script src="interactive.js"></script>
 </body>
 </html>
